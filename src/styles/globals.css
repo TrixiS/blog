@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    color-scheme: dark;
+}
+
+.syntaxhighlighter {
+    @apply bg-zinc-900 rounded-lg px-2 py-4 !important
+}
+
+.syntaxhighlighter * {
+    @apply bg-zinc-900 !important
+}
+
+.syntaxhighlighter .linenumber {
+    @apply not-italic !important
+}
